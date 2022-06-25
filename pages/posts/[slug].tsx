@@ -53,7 +53,10 @@ const Post: FC<IPost> = ({ post }) => {
     }
 
     return (
+       
         <main>
+           <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
             <Header />
             <img
                className="w-full h-40 object-cover"
